@@ -14,17 +14,7 @@ ADD requeriments.txt .
 # Criando diretorio dos database
 #
 
-RUN mkdir database
-
-ADD database/intents.json database/
-
-#
-# Criando diretorio dos utils
-#
-
-RUN mkdir utils
-
-ADD utils/findImports.py utils/
+COPY arquivos/ arquivos/
 
 #
 # Instalando dependências

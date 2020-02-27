@@ -25,7 +25,7 @@ class Preprocess:
 
     def main(self):
         # Pegar dados
-        with open('database/intents.json',"r",encoding="UTF-8") as f:
+        with open('arquivos/intents.json',"r",encoding="UTF-8") as f:
             intents = json.load(f)
         
         words = []
