@@ -9,6 +9,7 @@ WORKDIR /src
 
 ADD preprocess.py .
 ADD requeriments.txt .
+ADD config.json .
 
 #
 # Criando diretorio dos database

@@ -1,7 +1,8 @@
 {
     "name": "AIDA-preprocessamento-1",
     "type": "preprocessamento",
-    "save":"data.pickle", 
+    "save":"data",
+    "output": "data.pickle",
     "arquivos": ["database/inputs/intents.json"],
     "image":"python:3.6.8-slim",
     "version": 1
